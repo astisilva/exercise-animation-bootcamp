@@ -22,29 +22,33 @@ body::before {
 .star-wars {
   display: flex;
   height: 100%;
-  width: 60%;
+  width: 100%;
   margin: 0 auto;
   perspective: 350px;
 }
 
 .scroll-text {
   color: yellow;
-  font-size: 3vw;
+  font-size: 6vw;
   line-height: 1.5em;
   font-weight: bold;
   text-align: justify;
   position: relative;
-  animation: scroll 20s linear forwards;
+  animation: scroll 20s linear infinite;
 }
 
-.scroll-text :nth-child(2),
-h1 {
+.scroll-text img,
+.scroll-text .episode,
+.scroll-text h1 {
   text-align: center;
+  display: block;
+  margin: 0 auto;
 }
+
 @keyframes scroll {
   from {
     top: 0;
-    transform: translateZ(0) rotateX(10deg);
+    transform: translateZ(0) rotateX(15deg);
   }
   to {
     top: -10500px;
