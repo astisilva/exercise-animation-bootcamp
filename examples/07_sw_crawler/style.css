@@ -34,7 +34,7 @@ body::before {
   font-weight: bold;
   text-align: justify;
   position: relative;
-  animation: scroll 20s linear infinite;
+  animation: scroll 20s linear linear;
 }
 
 .scroll-text img,
