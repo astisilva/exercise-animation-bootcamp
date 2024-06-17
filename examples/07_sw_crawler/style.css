@@ -3,7 +3,7 @@ body {
   overflow: hidden;
   font-family: 'Arial', sans-serif;
   background-color: black;
-  margin: 40% 0 0 0;
+  margin: 60% 0 0 0;
   position: relative;
 }
 
@@ -34,7 +34,7 @@ body::before {
   font-weight: bold;
   text-align: justify;
   position: relative;
-  animation: scroll 20s linear;
+  animation: scroll 30s linear forwards;
 }
 
 .scroll-text img,
@@ -52,6 +52,6 @@ body::before {
   }
   to {
     top: -10500px;
-    transform: translateZ(-2500px) rotateX(11deg);
+    transform: translateZ(-2000px) rotateX(11deg);
   }
 }
