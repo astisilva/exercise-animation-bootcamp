@@ -33,18 +33,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0.1rem;
   font-size: 2rem;
   padding: 1rem;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.8);
 }
 
 .flip-card .front {
   background-color: hotpink;
-  color: #2980b9;
+  color: #2f43b7;
 }
 
 .flip-card .back {
-  background-color: #2980b9;
+  background-color: #2f43b7;
   color: hotpink;
   transform: rotateY(180deg);
 }
